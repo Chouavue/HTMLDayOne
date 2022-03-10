@@ -9,7 +9,7 @@ document.body.appendChild(list);
 
 html.onclick = function() {
   const listItem = document.createElement('li');
-  const listContent = prompt('Hello! How are you doing?');
+  const listContent = prompt('Hello! Tell me one thing you like about my page?');
   listItem.textContent = listContent;
   list.appendChild(listItem);
 
